@@ -1,0 +1,45 @@
+html {
+  font-size: 20px;
+}
+body > div {
+  text-align: center;
+  font-family: "Arial","Meiryo", sans-serif;
+}
+  
+h1 {
+  font-size: 2rem;
+  font-family: "Josefin Sans", sans-serif;
+  letter-spacing: 1.2em;
+  text-shadow: 1px 1px 2px gray;
+  border-bottom: solid 3px rgb(115, 115, 114);
+}
+.font-pink {
+  color: pink;
+}
+.font-blue {
+  color: skyblue;
+}
+
+
+
+.h2 {
+  color:  rgb(255, 192, 203); 
+}
+
+.text-pink {
+  color:  rgb(255, 192, 203);
+}
+
+.text-blue {
+  color: skyblue;
+}
+
+#text-bold01 {
+  font-weight: bold;
+}
+#text-bold02 {
+  font-weight: bold;
+}
+#text-bold03 {
+  font-weight: bold;
+}
