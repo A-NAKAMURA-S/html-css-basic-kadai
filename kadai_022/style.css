@@ -44,6 +44,10 @@ justify-content: space-around;
  align-content: center;
 }
 
+.contents img {
+  max-width: 100%;
+  height: auto;
+}
 
 h2 {
 font-size: 25px;
