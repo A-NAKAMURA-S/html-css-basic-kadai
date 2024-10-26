@@ -1,0 +1,99 @@
+p {
+  font-size: 20px;
+  margin: 0 0;
+}
+a {
+  font-size: 20px;
+}
+
+body {
+  margin: 0 0;
+  overflow-x: hidden;
+}
+h1 {
+  margin: 0 0;
+}
+
+ h1{
+  margin: 20px;
+  background-color: rgb(244, 79, 79);
+  text-align: center;
+}
+
+div {
+  text-align: center;
+}
+
+main {
+  margin: 10px;
+}
+
+#parent {
+  display: flex; 
+ flex-wrap: wrap;
+justify-content: space-around;
+}
+
+
+.contents {
+  justify-content: space-around;
+  border: solid 3px rgb(238, 204, 204);
+  flex-basis: 25%;
+ padding: 10px 15px;
+ margin:  20px 10px;
+ align-content: center;
+}
+
+
+h2 {
+font-size: 25px;
+text-decoration: underline dotted 3px rgb(236, 122, 122);
+}
+h2::before {
+  content: "●";
+  color: rgb(239, 111, 139);
+
+}
+
+p.highlight::first-letter {
+  color: rgb(97, 206, 249);
+  font-weight: bold;
+ }
+ 
+ a {
+  background-color: rgb(244, 79, 79);
+  align-content: center;
+ }
+ a:link {
+  color: rgb(255, 255, 255);
+ }
+ a:visited {
+  color: rgb(193, 234, 251);
+ }
+ a:hover {
+  color: rgb(245, 178, 168);
+}
+
+footer {
+  width: 100%;
+  background-color: rgb(244, 79, 79);
+  text-align: center;
+
+}
+
+
+
+@media screen and (max-width: 768px) {
+  /* ここに通常のCSSを書きます。 */
+  h2 {
+    font-size: 30px;
+  }
+  p {
+    font-size: 25px;
+  }
+  #parent {
+    flex-direction: column;
+   align-items: center;
+  
+  }
+}
